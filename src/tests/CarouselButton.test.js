@@ -21,7 +21,7 @@ describe('CarouselButton', () => {
     expect(wrapper.prop('children')).toBe(text);
   });
 
-  it('passes other props through to the >button>', () => {
+  it('passes other props through to the <button>', () => {
     const onClick = () => {};
     const className = 'my-carousel-button';
     const dataAction = 'prev';
